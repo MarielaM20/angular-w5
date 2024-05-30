@@ -1,0 +1,25 @@
+.pokemon-grid{
+    display: grid;
+    grid-gap: 15px;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+}
+
+.pokemon-grid .box{
+    width: 100%;
+    height: 400px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+    display: grid;
+    text-align: center;
+    background-color: rgb(223, 235, 231);
+}
+
+.pokemon-grid .box img{
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+pagination-controls {
+    text-align: center;
+}
